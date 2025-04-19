@@ -11,10 +11,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define WIFI_SSID "MOB-THALIA"
 #define WIFI_PASSWORD "enscn123"
 
-#define API_KEY "AIzaSyD5W0Bjh0cC_W5TGuav5a5-4qyprcUpIbs"
-#define DATABASE_URL "https://ponto-eletronico-c4daf-default-rtdb.firebaseio.com/"
-#define USER_EMAIL "pedrodimas94@gmail.com"
-#define USER_PASSWORD "12345678"
+#define API_KEY "-"
+#define DATABASE_URL "-"
+#define USER_EMAIL "-"
+#define USER_PASSWORD "-"
 
 SoftwareSerial mySerial(13, 12);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
