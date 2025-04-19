@@ -8,8 +8,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-#define WIFI_SSID "MOB-THALIA"
-#define WIFI_PASSWORD "enscn123"
+#define WIFI_SSID "-"
+#define WIFI_PASSWORD "-"
 
 #define API_KEY "-"
 #define DATABASE_URL "-"
